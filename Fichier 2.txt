@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2C3E50;
+}
+
+#accueil {
+    padding: 50px 10px;
+    background-color: #ECF0F1;
+}
+
+#produits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.produit {
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.produit img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+.prix {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27AE60;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #2980B9;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3498DB;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}

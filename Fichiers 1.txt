@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessoires Chrétiens - Boutique en ligne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#produits">Nos Produits</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <h1>Bienvenue dans notre boutique chrétienne</h1>
+        <p>Découvrez une sélection d'accessoires chrétiens pour nourrir votre foi et votre spiritualité.</p>
+    </section>
+
+    <section id="produits">
+        <h2>Nos Produits</h2>
+        <div class="produit">
+            <img src="croix-en-bois.jpg" alt="Croix en bois" />
+            <h3>Croix en bois sculptée</h3>
+            <p>Une magnifique croix en bois sculptée à la main, parfaite pour décorer votre maison ou votre église.</p>
+            <p class="prix">€30,00</p>
+            <button class="ajouter-panier">Ajouter au panier</button>
+        </div>
+
+        <div class="produit">
+            <img src="bible-luxe.jpg" alt="Bible de luxe" />
+            <h3>Bible de luxe en cuir</h3>
+            <p>Une édition spéciale de la Bible en cuir avec des pages dorées, un cadeau idéal pour les célébrations religieuses.</p>
+            <p class="prix">€50,00</p>
+            <button class="ajouter-panier">Ajouter au panier</button>
+        </div>
+        
+        <!-- Ajoutez plus de produits ici -->
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="#">
+            <input type="text" placeholder="Votre nom" required />
+            <input type="email" placeholder="Votre email" required />
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Accessoires Chrétiens. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
